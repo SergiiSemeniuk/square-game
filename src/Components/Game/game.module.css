@@ -1,0 +1,55 @@
+.game {
+  text-align: start;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  align-items: baseline;
+  justify-items: start;
+  gap: 20px;
+  margin: 30px;
+}
+
+.gridContainer {
+  display: grid;
+  justify-content: start;
+  justify-items: start;
+}
+
+.gridContainer select {
+  background: #fff;
+  border: 1px solid black;
+  width: 150px;
+  height: 30px;
+}
+
+.gridContainer button {
+  background: #0000FF;
+  border: 1px solid black;
+  color: #fff;
+  font-weight: 600;
+  width: 150px;
+  height: 30px;
+  margin: 0 10px;
+}
+
+.gameField {
+  margin-top: 30px;
+}
+
+.hoverSquaresContainer {
+  display: grid;
+  justify-self: start;
+}
+
+.hoverSquares {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 10px;
+}
+
+.hoverSquares p {
+  padding: 5px 10px;
+  background: #faebd7;
+}
